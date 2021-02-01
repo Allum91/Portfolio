@@ -1,0 +1,299 @@
+$primary-color: #8CBFD7;
+$secondary-color: #F3F8FA; 
+
+$primary-font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+#section-1 {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: auto;
+
+  .box-color-1 {
+    background: $primary-color;
+    width: 48vw;
+    height: 96vh;
+  }
+
+  .box-color-2 {
+    background: $secondary-color;
+    width: 48vw;
+    height: 96vh;
+  }
+  .homepage {
+    h1 {
+      font-family: $primary-font;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 144px;
+      line-height: 170px;
+
+      span {
+        color: $primary-color;
+      }
+    }
+    h2 {
+      font-family: $primary-font;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 36px;
+      text-decoration: underline;
+    }
+    h3 {
+      font-family: $primary-font;
+      font-style: italic;
+      font-weight: normal;
+      font-size: 24px;
+    }
+
+    .language li {
+      list-style-type: none;
+        font-family: $primary-font;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        transform: rotate(-90deg);
+      }
+/* Not sure about this bit
+
+      .contact .social-icons {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+      }
+
+      */
+      .scroll {
+        p {
+          font-family: $primary-font;
+          font-style: italic;
+          font-weight: normal;
+          font-size: 14px;
+          color: $secondary-color;
+          transform: rotate(-90deg);
+        }
+      }
+    }
+  }
+  
+
+#section-2 {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: auto;
+
+  .box-color-1 {
+    background: $secondary-color;
+    width: 48vw;
+    height: 96vh;
+  }
+
+  .box-color-2 {
+    background: $primary-color;
+    width: 48vw;
+    height: 96vh;
+  }
+
+  .topbar {
+    h4 {
+      font-family: $primary-font;
+      color: black;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+    }
+/* This isn't working
+
+    li {
+      list-style-type: none;
+      font-family: $primary-font;
+      color: black;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+
+      span {
+        color: $primary-color;
+        text-decoration: underline;
+      }
+      */
+    }
+
+    .about-title {
+    
+      h1 {
+        font-family: $primary-font;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 144px;
+
+        span {
+          color: $primary-color;
+        }
+      }
+    }
+
+    .about-article {
+      display: grid;
+      grid-template-columns: 640px;
+      grid-template-rows: 800px;
+
+      p {
+        font-family: $primary-font;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        color: black;
+      }
+    }
+
+    .strength-graph {
+      box-sizing: border-box;
+      background: $primary-color;
+      box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.25);
+
+      h3 {
+        font-family: $primary-font;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        text-decoration: underline;
+        text-align: center;
+      }
+
+      .container {
+        width: 100%;
+      }
+
+      .skills {
+        text-align: right;
+        color: black;
+      }
+
+      .html {
+        width: 90%;
+        background-color: $secondary-color;
+      }
+
+      .css {
+        width: 80%;
+        background-color: $secondary-color;
+      }
+
+      .java {
+        width: 70%;
+        background-color: $secondary-color;
+      }
+
+      .node {
+        width: 60%;
+        background-color: $secondary-color;
+      }
+
+      .atomic {
+        width: 60%;
+        background-color: $secondary-color;
+      }
+    }
+  }
+
+  .language li {
+    list-style-type: none;
+      font-family: $primary-font;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      transform: rotate(-90deg);
+    }
+
+
+#section-3 {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: auto;
+
+  .box-color-1 {
+    background: $primary-color;
+    width: 48vw;
+    height: 96vh;
+  }
+
+  .box-color-2 {
+    background: $secondary-color;
+    width: 48vw;
+    height: 96vh;
+  }
+
+  .language li {
+    list-style-type: none;
+      font-family: $primary-font;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      transform: rotate(-90deg);
+    }
+
+    .topbar {
+      h4 {
+        font-family: $primary-font;
+        color: black;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+      }
+    }
+
+    /* This isn't working
+
+    li {
+      list-style-type: none;
+      font-family: $primary-font;
+      color: black;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+
+      span {
+        color: $primary-color;
+        text-decoration: underline;
+      }
+      */
+      .projects-title {
+        h1 {
+          font-family: $primary-font;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 144px;
+        }
+  
+        span {
+          color: $primary-color;
+        }
+      }
+
+      .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-gap: 5px;
+        border: 3px solid black;
+      }
+}
+
+.social-icons img {
+  width: 25px;
+  height: 25px;
+}
+.social-icons li {
+  list-style-type: none;
+}
+ #wireframe img {
+  width: 100vw;
+  height: 550px;
+}
+#coding-image img {
+  width: 100vw;
+  height: 750px;
+}
