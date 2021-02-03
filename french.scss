@@ -44,11 +44,9 @@ body {
   }
 
   .homepage {
-    z-index: 2;
-
     h1 {
       position: absolute;
-      left: 42%;
+      left: 500px;
       top: 125px;
       font-family: $primary-font;
       font-style: normal;
@@ -63,7 +61,8 @@ body {
 
     h2 {
       position: absolute;
-      left: 43%;
+      left: 600px;
+      ;
       top: 470px;
       font-family: $primary-font;
       font-style: normal;
@@ -74,7 +73,8 @@ body {
 
     h3 {
       position: absolute;
-      left: 42.5%;
+      left: 580px;
+      ;
       top: 520px;
       font-family: $primary-font;
       font-style: italic;
@@ -93,8 +93,8 @@ body {
       transform: rotate(-90deg);
 
       a {
-        color: $primary-color;
-        text-decoration: underline;
+        color: black;
+        text-decoration: none;
       }
     }
 
@@ -109,8 +109,8 @@ body {
       transform: rotate(-90deg);
 
       a {
-        color: black;
-        text-decoration: none;
+        color: $primary-color;
+        text-decoration: underline;
       }
     }
 
@@ -274,7 +274,7 @@ ul li:hover a {
 .about-title {
   h1 {
     position: absolute;
-    left: 15%;
+    left: 75px;
     top: 1400px;
     font-family: $primary-font;
     font-style: normal;
