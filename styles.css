@@ -853,3 +853,393 @@ footer {
     font-size: 10px;
   }
 }
+@media only screen and (max-width: 568px) {
+  body {
+    width: 100%;
+    position: relative;
+    overflow: auto;
+  }
+
+  #section-1 {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: auto;
+  }
+  #section-1 .box-color-1 {
+    background: #8CBFD7;
+    width: 50vw;
+    height: 96vh;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+  }
+  #section-1 .box-color-2 {
+    background: #F3F8FA;
+    width: 50vw;
+    height: 96vh;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+  }
+  #section-1 .homepage h1 {
+    position: absolute;
+    left: 205px;
+    top: 205px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 75px;
+    line-height: 75px;
+  }
+  #section-1 .homepage h1 span {
+    color: #8CBFD7;
+  }
+  #section-1 .homepage h2 {
+    position: absolute;
+    left: 205px;
+    top: 380px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    text-decoration: underline;
+  }
+  #section-1 .homepage h3 {
+    position: absolute;
+    left: 195px;
+    top: 420px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 12px;
+  }
+  #section-1 .homepage .language .english {
+    position: fixed;
+    left: 3px;
+    top: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    transform: rotate(-90deg);
+  }
+  #section-1 .homepage .language .english a {
+    color: #8CBFD7;
+    text-decoration: underline;
+  }
+  #section-1 .homepage .language .french {
+    position: fixed;
+    left: 6px;
+    top: 55px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    transform: rotate(-90deg);
+  }
+  #section-1 .homepage .language .french a {
+    color: black;
+    text-decoration: none;
+  }
+  #section-1 .homepage .language:hover .french {
+    color: #8CBFD7;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .contact .social-icons {
+    position: absolute;
+    right: 3px;
+    top: 11%;
+    padding-right: 2px;
+  }
+
+  .social-icons img {
+    width: 15px;
+    height: 15px;
+    margin-top: 25px;
+    opacity: 1;
+  }
+
+  .social-icons li {
+    list-style-type: none;
+  }
+
+  #wireframe img {
+    width: 95vw;
+    height: 350px;
+    margin-left: 15px;
+  }
+
+  #section-2 {
+    display: flex;
+    justify-content: center;
+    width: 110vw;
+    height: auto;
+  }
+  #section-2 .box-color-1 {
+    background: #F3F8FA;
+    width: 50vw;
+    height: 96vh;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    z-index: -1;
+  }
+  #section-2 .box-color-2 {
+    background: #8CBFD7;
+    width: 50vw;
+    height: 96vh;
+    margin-right: 45px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .topbar {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 5px;
+    font-size: 10px;
+  }
+  .topbar h4 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 12px;
+  }
+  .topbar ul li {
+    list-style-type: none;
+    display: inline;
+  }
+  .topbar ul li a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .topbar ul li a span {
+    text-decoration: underline;
+    color: #8CBFD7;
+  }
+
+  ul li:hover a {
+    cursor: pointer;
+    color: #8CBFD7;
+    text-decoration: underline;
+  }
+
+  .about-title h1 {
+    position: absolute;
+    left: 17%;
+    top: 1150px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 75px;
+    line-height: 75px;
+  }
+  .about-title h1 span {
+    color: #8CBFD7;
+  }
+
+  .about-article {
+    display: grid;
+    grid-template-columns: 35vw;
+    grid-template-rows: 90vh;
+    position: absolute;
+    top: 1060px;
+    right: 25px;
+    border: 2px solid black;
+  }
+  .about-article p {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: black;
+    font-style: none;
+    font-size: 10px;
+    padding: 10px;
+  }
+
+  .strength-graph {
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: underline;
+    position: absolute;
+    top: 1410px;
+    left: 70px;
+    font-size: 10px;
+  }
+  .strength-graph h3 {
+    font-size: 12px;
+  }
+  .strength-graph .container {
+    width: 35vw;
+    border: 2px solid black;
+    margin-bottom: 3px;
+    border-radius: 9px;
+  }
+  .strength-graph .skills {
+    text-align: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  .strength-graph .html {
+    width: 30%;
+    background-color: #8CBFD7;
+    padding-right: 5px;
+  }
+  .strength-graph .css {
+    width: 25%;
+    background-color: #8CBFD7;
+    padding-right: 5px;
+  }
+  .strength-graph .java {
+    width: 10%;
+    background-color: #8CBFD7;
+    padding-right: 5px;
+  }
+  .strength-graph .node {
+    width: 10%;
+    background-color: #8CBFD7;
+    padding-right: 5px;
+  }
+
+  .html5 {
+    position: absolute;
+    top: 1440px;
+    left: 36px;
+    color: #e34c26;
+    font-size: 10px;
+  }
+
+  .css3 {
+    position: absolute;
+    top: 1470px;
+    left: 36px;
+    color: #264de4;
+    font-size: 10px;
+  }
+
+  .js-square {
+    position: absolute;
+    top: 1503px;
+    left: 35px;
+    color: #e0e034;
+    font-size: 10px;
+  }
+
+  .node-symbol {
+    position: absolute;
+    top: 1535px;
+    left: 35px;
+    color: #39ca39;
+    font-size: 8px;
+  }
+
+  .coding-image img {
+    width: 95vw;
+    height: 250px;
+    margin-left: 20px;
+  }
+
+  #section-3 {
+    display: flex;
+    justify-content: center;
+    width: 110vw;
+    height: auto;
+  }
+  #section-3 .box-color-1 {
+    background: #8CBFD7;
+    width: 50vw;
+    height: 96vh;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  #section-3 .box-color-2 {
+    background: #F3F8FA;
+    width: 50vw;
+    height: 96vh;
+    margin-right: 45px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+
+  .topbar {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 48px;
+    padding: 5px;
+    height: 20px;
+    font-size: 8px;
+  }
+  .topbar h4 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 10px;
+    text-align: center;
+    text-decoration: underline;
+  }
+  .topbar ul li {
+    list-style-type: none;
+    display: inline;
+  }
+  .topbar ul li a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .topbar ul li a span {
+    text-decoration: underline;
+    color: #8CBFD7;
+  }
+
+  .projects-title h1 {
+    position: absolute;
+    left: 13%;
+    bottom: 255px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 45px;
+  }
+  .projects-title h1 span {
+    color: #F3F8FA;
+  }
+
+  .grid-container {
+    position: absolute;
+    right: 12px;
+    bottom: 40px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-gap: 4px;
+    border-radius: 8px;
+    background-color: #8CBFD7;
+    padding: 6px;
+  }
+  .grid-container .grid-item {
+    background-color: #F3F8FA;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    height: 30vh;
+    width: 20vw;
+    opacity: 0.8;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+  }
+  footer h6 {
+    font-size: 10px;
+  }
+}
