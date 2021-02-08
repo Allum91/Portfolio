@@ -93,7 +93,7 @@ body {
 
 .contact .social-icons {
   position: fixed;
-  right: 10px;
+  right: 8px;
   top: 45%;
   padding-right: 2px;
 }
@@ -103,6 +103,7 @@ body {
   height: 30px;
   margin-top: 25px;
   opacity: 0.3;
+  border-radius: 3px;
 }
 
 .social-icons img:hover {
@@ -571,6 +572,7 @@ footer {
     height: 15px;
     margin-top: 25px;
     opacity: 1;
+    border-radius: 3px;
   }
 
   .social-icons li {
@@ -853,7 +855,7 @@ footer {
     font-size: 10px;
   }
 }
-@media only screen and (max-width: 568px) {
+@media only screen and (max-width: 576px) {
   body {
     width: 100%;
     position: relative;
@@ -960,6 +962,7 @@ footer {
     height: 15px;
     margin-top: 25px;
     opacity: 1;
+    border-radius: 3px;
   }
 
   .social-icons li {
@@ -967,7 +970,7 @@ footer {
   }
 
   #wireframe img {
-    width: 95vw;
+    width: 100vw;
     height: 350px;
     margin-left: 15px;
   }
@@ -1140,8 +1143,8 @@ footer {
   }
 
   .coding-image img {
-    width: 95vw;
-    height: 250px;
+    width: 100vw;
+    height: 350px;
     margin-left: 20px;
   }
 
@@ -1204,8 +1207,8 @@ footer {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 40px;
-    line-height: 45px;
+    font-size: 75px;
+    line-height: 75px;
   }
   .projects-title h1 span {
     color: #F3F8FA;
