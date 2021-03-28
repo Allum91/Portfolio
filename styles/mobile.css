@@ -1,0 +1,28 @@
+body {
+  background: white;
+}
+
+li {
+  list-style-type: none;
+  opacity: 0.3;
+}
+li img {
+  width: 20px;
+  height: 20px;
+  margin-top: 3px;
+}
+
+li:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+#wireframe img {
+  width: 95vw;
+  height: 45vh;
+}
+
+.coding-image img {
+  width: 95vw;
+  height: 45vh;
+}
