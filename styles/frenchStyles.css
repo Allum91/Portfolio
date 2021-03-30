@@ -190,7 +190,6 @@ body #section-3 .projects {
   display: flex;
   justify-content: center;
   height: 80vh;
-  overflow: scroll;
 }
 body #section-3 .projects .projects-title {
   background: #8CBFD7;
@@ -224,7 +223,6 @@ body #section-3 .projects .project-links {
   padding: 10px;
   display: flex;
   justify-content: space-around;
-  overflow: scroll;
 }
 body #section-3 .projects .project-links .card {
   margin-bottom: 15px;
