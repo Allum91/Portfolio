@@ -226,6 +226,12 @@
           span {
             color: $secondary-color;
           }
+          animation: animater-text 2s steps(30,end)
+          1s 1 normal both;
+        }
+        @keyframes animated-text{
+          from{width: 0;}
+          to{width: 472px;}
         }
         .skills {
           margin-top: 100px;
