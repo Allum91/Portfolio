@@ -1,5 +1,6 @@
 @import './variables.scss';
 
+
 @media screen and (max-width: 399px) {
   body {
     background: $background-color;
@@ -921,7 +922,15 @@
         span {
           color: $primary-color;
         }
+        // animation: animated-text 2s steps(30,end) 1s 1 normal both;
+        // @keyframes animated-text{
+        //   from{width: 0;}
+        //   to{width: 1000px;}
+        // }
       }
+
+
+
       h2 {
         position: absolute;
         bottom: 13%;

@@ -775,9 +775,18 @@
     font-weight: 800;
     color: #363636;
     line-height: 160px;
+    animation: animated-text 2s steps(30, end) 1s 1 normal both;
   }
   body #section-1 h1 span {
     color: #8CBFD7;
+  }
+  @keyframes animated-text {
+    from {
+      width: 0;
+    }
+    to {
+      width: 1000px;
+    }
   }
   body #section-1 h2 {
     position: absolute;
