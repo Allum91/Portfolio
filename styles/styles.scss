@@ -1,7 +1,282 @@
 @import './variables.scss';
 
-// mobile
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 399px) {
+  body {
+    background: $background-color;
+    font-family: $primary-font;
+  
+    #section-1 {
+
+      width: 100vw;
+  
+      .homepage {
+        display: flex;
+        justify-content: center;
+  
+        .box-color-1 {
+          width: 47vw;
+          height: 80vh;
+          background: $primary-color;
+          margin-top: 15px;
+        }
+        .box-color-2 {
+          width: 47vw;
+          height: 80vh;
+          background: $secondary-color;
+          margin-top: 15px;
+  
+        }
+      }
+      h1 {
+        font-size: 130px;
+        position: absolute;
+        top: 15%;
+        left: 20%;
+        font-weight: 800;
+        color: $primary-font-color;
+        line-height: 150px;;
+        span {
+          color: $primary-color;
+        }
+      }
+      h2 {
+        position: absolute;
+        bottom: 34%;
+        left: 24%;
+        font-style: italic;
+        font-weight: 300;
+      }
+      h3 {
+        position: absolute;
+        bottom: 28%;
+        left: 23%;
+        font-size: $font-s;
+      }
+    }
+  
+    .language {
+      position: fixed;
+      left: 0;
+      top: 25px;
+  
+      p {
+        font-size: 10px;
+        font-weight: bold;
+        transform: rotate(-90deg);
+       
+        a {
+          color: $primary-font-color;
+        }
+        a:hover {
+          color: $primary-color;
+        }
+      }
+    }
+    
+    .social-icons{
+      position: fixed;
+      right: 2px;
+      top: 300px;
+    
+    li {
+      list-style-type: none;
+      opacity: 0.3;
+  
+    img {
+      width: 13px;
+      height: 13px;
+      margin-top: 30px;
+    }
+  }
+  }
+  li:hover {
+    opacity: 1;
+    cursor: pointer;
+  }
+  .parallax {
+    background-image: url('../images/stock_images/wireframing.jpeg');
+    min-height: 20vh;
+    min-width: 98vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 96vw;
+  }
+  .parallaxTwo {
+    background-image: url('../images/stock_images/coding.png');
+    min-height: 20vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 96vw;
+  }
+  
+  .topbar {
+    display: none;
+    
+    h4 {
+      font-size: $font-m;
+    }
+  
+    ul li {
+      display: inline;
+      font-size: $font-m;
+      a {
+        color: $primary-font-color;;
+        font-weight: bold;
+        text-decoration: none;
+  
+        span {
+          text-decoration: underline;
+          color: $primary-color
+        }
+      }
+    }
+    ul li:hover a {
+      cursor: pointer;
+      color: $primary-color;
+      text-decoration: underline;
+    }
+  }
+  
+  #section-2 {
+    width: 100vw;
+    height: 80vh;
+    padding-left: 18px;
+    padding-right: 18px;
+    margin-top: 10px;
+  
+    .about-title{
+      display:flex;
+      justify-content: center;
+      height: 80vh;
+  
+    }
+  
+    .about-heading {
+      background: $secondary-color;
+      width: 50vw;
+      text-align:left;
+      margin-top: 15px;
+
+      h1 {
+        padding-top: 50px;
+        padding-left: 10px;
+        font-size: 80px;
+        font-weight: bold;
+        line-height: 90px;
+        margin-left: 20px;
+        color: $primary-font-color;
+        span { 
+          color: $primary-color;
+        }
+      }
+      img {
+        width: 180px;
+        height: 180px;
+        padding: 20px;
+        border-radius: 50%;
+        margin-top: 80px;
+      }
+    }
+    .article {
+      background: $primary-color;
+      padding: 30px;
+      width: 50vw;
+      text-align: center;
+      font-size: 15px;
+      color: $primary-font-color;
+      overflow: scroll;
+      margin-top: 15px;
+    }
+  }
+  
+  #section-3 {
+    width: 100vw;
+    height: 60vh;
+    padding-left: 18px;
+    padding-right: 18px;
+  
+    .projects {
+      display: flex;
+      justify-content: center;
+      height: 80vh;
+  
+      .projects-title {
+        background: $primary-color;
+        width: 46vw;
+        height: 80vh;
+        text-align: center;
+        padding-top: 50px;
+        
+        h1 {
+          font-size: 60px;
+          font-weight: bold;
+          line-height: 80px;
+          color: $primary-font-color;
+          span {
+            color: $secondary-color;
+          }
+        }
+        .skills {
+          margin-top: 100px;
+          .fab {
+            width: 65px;
+            height: 65px;
+            font-size: 65px;
+            grid-gap: 10px;
+          }
+        }
+      }
+      .project-links {
+        background: $secondary-color;
+        width: 46vw;
+        height: 80vh;
+        padding: 10px;
+        display: flex;
+        justify-content: space-around;
+  
+        .card {
+          width: 5rem;
+          margin-top: 30px;
+          margin-bottom: 10px;
+          background:rgba( 255, 255, 255, 0.18 );
+          box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+          backdrop-filter: blur( 3.0px );
+          -webkit-backdrop-filter: blur( 3.0px );
+          border-radius: 10px;
+          border: 1px solid rgba( 255, 255, 255, 0.18 );
+          font-size: 8px;
+          height: 150px;
+          color: $primary-font-color;
+          overflow: scroll;
+
+          .card-title{
+            font-size: 8px;
+          }
+        }
+        
+        .btn {
+          background: $secondary-color;
+          color: $primary-font-color;
+          font-weight: bold;
+          font-size: 8px;
+          border: 1px solid $primary-font-color;
+          width: 50px;
+          height: 20px;
+        }
+        .btn:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+  }
+  
+}
+
+// tab
+@media screen and (min-width: 400px) and (max-width: 600px) {
   body {
     background: $background-color;
     font-family: $primary-font;
@@ -61,7 +336,7 @@
       top: 25px;
   
       p {
-        font-size: medium;
+        font-size: small;
         font-weight: bold;
         transform: rotate(-90deg);
        
@@ -84,8 +359,8 @@
       opacity: 0.3;
   
     img {
-      width: 25px;
-      height: 25px;
+      width: 15px;
+      height: 15px;
       margin-top: 20px;
     }
   }
@@ -95,10 +370,21 @@
     cursor: pointer;
   }
   .parallax {
-    display: none;
+    background-image: url('../images/stock_images/wireframing.jpeg');
+    min-height: 20vh;
+    min-width: 98vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 96vw;
   }
   .parallaxTwo {
-    display: none;
+    background-image: url('../images/stock_images/coding.png');
+    min-height: 20vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 96vw;
   }
   
   .topbar {
@@ -212,9 +498,9 @@
         .skills {
           margin-top: 100px;
           .fab {
-            width: 75px;
-            height: 75px;
-            font-size: 75px;
+            width: 65px;
+            height: 65px;
+            font-size: 65px;
             grid-gap: 10px;
           }
         }
@@ -239,13 +525,20 @@
           font-size: 10px;
           height: 200px;
           color: $primary-font-color;
+
+          .card-title{
+            font-size: 12px;
+          }
         }
         
         .btn {
           background: $secondary-color;
           color: $primary-font-color;
           font-weight: bold;
+          font-size: 10px;
           border: 1px solid $primary-font-color;
+          width: 100px;
+          height: 30px;
         }
         .btn:hover {
           transform: scale(1.1);
