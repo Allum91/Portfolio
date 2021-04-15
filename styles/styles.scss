@@ -219,12 +219,12 @@
           }
         }
         .skills {
-          margin-top: 100px;
+          margin-top: 50px;
           .fab {
             width: 65px;
             height: 65px;
-            font-size: 65px;
-            grid-gap: 10px;
+            font-size: 35px;
+            grid-gap: 5px;
           }
         }
       }
@@ -592,13 +592,13 @@
         justify-content: center;
   
         .box-color-1 {
-          width: 48vw;
+          width: 46vw;
           height: 98vh;
           background: $primary-color;
           margin-top: 15px;
         }
         .box-color-2 {
-          width: 48vw;
+          width: 46vw;
           height: 98vh;
           background: $secondary-color;
           margin-top: 15px;
@@ -609,7 +609,7 @@
         font-size: 200px;
         position: absolute;
         top: 15%;
-        left: 38%;
+        left: 28%;
         font-weight: 800;
         color: $primary-font-color;
         line-height: 200px;;
@@ -619,21 +619,21 @@
       }
       h2 {
         position: absolute;
-        bottom: 13%;
-        left: 42%;
+        bottom: 18%;
+        left: 37%;
         font-style: italic;
         font-weight: 300;
       }
       h3 {
         position: absolute;
-        bottom: 8%;
-        left: 42%;
+        bottom: 13%;
+        left: 37%;
         font-size: $font-s;
       }
     }
   
     .language {
-      position: fixed;
+      position: absolute;
       left: 5px;
       top: 25px;
   
@@ -661,7 +661,7 @@
       opacity: 0.3;
   
     img {
-      width: 25px;
+      width: 23px;
       height: 25px;
       margin-top: 20px;
     }
@@ -673,8 +673,8 @@
   }
   .parallax {
     background-image: url('../images/stock_images/wireframing.jpeg');
-    min-height: 80vh;
-    min-width: 98vw;
+    min-height: 60vh;
+    max-width: 96vw;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -683,6 +683,7 @@
   .parallaxTwo {
     background-image: url('../images/stock_images/coding.png');
     min-height: 80vh;
+    max-width: 96vw;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -695,14 +696,15 @@
     padding-left: 25px;
     padding-right: 27px;
     color: $primary-font-color;
+    height: 25px;
     
     h4 {
-      font-size: $font-m;
+      font-size: $font-s;
     }
   
     ul li {
       display: inline;
-      font-size: $font-m;
+      font-size: $font-s;
       a {
         color: $primary-font-color;;
         font-weight: bold;
@@ -736,16 +738,16 @@
   
     .about-heading {
       background: $secondary-color;
-      padding-left: 20px;
+      padding-left: 15px;
       width: 48vw;
       text-align:left;
       h1 {
         padding-top: 50px;
-        padding-left: 20px;
-        font-size: 160px;
+        max-width: 96vw;
+        font-size: 140px;
         font-weight: bold;
         line-height: 110px;
-        margin-left: 120px;
+        margin-left: 60px;
         color: $primary-font-color;
         span { 
           color: $primary-color;
@@ -756,7 +758,7 @@
         height: 300px;
         padding: 20px;
         border-radius: 50%;
-        margin-left: 150px;
+        margin-left: 20px;
         margin-top: 80px;
       }
     }
@@ -765,7 +767,7 @@
       padding: 30px;
       width: 48vw;
       text-align: center;
-      font-size: 24px;
+      font-size: 20px;
       color: $primary-font-color;
       overflow: scroll;
     }
@@ -798,9 +800,9 @@
         padding-top: 50px;
         
         h1 {
-          font-size: 150px;
+          font-size: 120px;
           font-weight: bold;
-          line-height: 140px;
+          line-height: 120px;
           color: $primary-font-color;
           span {
             color: $secondary-color;
@@ -809,7 +811,7 @@
         .skills {
           margin-top: 100px;
           .fab {
-            width: 75px;
+            width: 70px;
             height: 75px;
             font-size: 75px;
             grid-gap: 10px;
@@ -909,13 +911,13 @@
         }
       }
       h1 {
-        font-size: 200px;
+        font-size: 160px;
         position: absolute;
-        top: 15%;
+        top: 10%;
         left: 38%;
         font-weight: 800;
         color: $primary-font-color;
-        line-height: 200px;;
+        line-height: 160px;;
         span {
           color: $primary-color;
         }
@@ -937,11 +939,11 @@
   
     .language {
       position: fixed;
-      left: 5px;
+      left: 0;
       top: 25px;
   
       p {
-        font-size:large;
+        font-size: medium;
         font-weight: bold;
         transform: rotate(-90deg);
        
@@ -957,15 +959,15 @@
     .social-icons{
       position: fixed;
       right: 2px;
-      top: 300px;
+      top: 200px;
     
     li {
       list-style-type: none;
       opacity: 0.3;
   
     img {
-      width: 25px;
-      height: 25px;
+      width: 20px;
+      height: 20px;
       margin-top: 20px;
     }
   }
@@ -998,14 +1000,15 @@
     padding-left: 25px;
     padding-right: 27px;
     color: $primary-font-color;
+    height: 30px;
     
     h4 {
-      font-size: $font-m;
+      font-size: $font-s;
     }
   
     ul li {
       display: inline;
-      font-size: $font-m;
+      font-size: $font-s;
       a {
         color: $primary-font-color;;
         font-weight: bold;
@@ -1043,9 +1046,8 @@
       width: 48vw;
       text-align:left;
       h1 {
-        padding-top: 50px;
         padding-left: 20px;
-        font-size: 160px;
+        font-size: 140px;
         font-weight: bold;
         line-height: 110px;
         margin-left: 120px;
@@ -1055,12 +1057,12 @@
         }
       }
       img {
-        width: 300px;
-        height: 300px;
+        width: 250px;
+        height: 250px;
         padding: 20px;
         border-radius: 50%;
-        margin-left: 150px;
-        margin-top: 80px;
+        margin-left: 100px;
+        margin-top: 20px;
       }
     }
     .article {
@@ -1083,7 +1085,7 @@
   
   #section-3 {
     width: 100vw;
-    height: 60vh;
+    height: 100vh;
     padding-left: 26px;
     padding-right: 26px;
     margin-bottom: 20px;
@@ -1091,26 +1093,26 @@
     .projects {
       display: flex;
       justify-content: center;
-      height: 80vh;
+      height: 100vh;
   
       .projects-title {
         background: $primary-color;
         width: 48vw;
         height: 100vh;
         text-align: center;
-        padding-top: 50px;
+        padding-top: 30px;
         
         h1 {
-          font-size: 150px;
+          font-size: 120px;
           font-weight: bold;
-          line-height: 140px;
+          line-height: 100px;
           color: $primary-font-color;
           span {
             color: $secondary-color;
           }
         }
         .skills {
-          margin-top: 100px;
+          margin-top: 60px;
           .fab {
             width: 75px;
             height: 75px;
@@ -1128,16 +1130,17 @@
         justify-content: space-around;
   
         .card {
+          width: 15rem;
           margin-bottom: 15px;
-          margin-top: 20px;
+          margin-top: 10px;
           background:rgba( 255, 255, 255, 0.18 );
           box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
           backdrop-filter: blur( 3.0px );
           -webkit-backdrop-filter: blur( 3.0px );
           border-radius: 10px;
           border: 1px solid rgba( 255, 255, 255, 0.18 );
-          font-size: 14px;
-          height: 200px;
+          font-size: 12px;
+          height: 150px;
           color: $primary-font-color;
         }
         
@@ -1250,7 +1253,7 @@
   
     .language {
       position: fixed;
-      left: 5px;
+      left: 4px;
       top: 25px;
   
       p {
@@ -1277,8 +1280,8 @@
       opacity: 0.3;
   
     img {
-      width: 25px;
-      height: 25px;
+      width: 23px;
+      height: 23px;
       margin-top: 20px;
     }
   }
@@ -1311,6 +1314,7 @@
     padding-left: 25px;
     padding-right: 27px;
     color: $primary-font-color;
+    height: 35px;
     
     h4 {
       font-size: $font-m;
@@ -1396,7 +1400,7 @@
   
   #section-3 {
     width: 100vw;
-    height: 60vh;
+    height: 100vh;
     padding-left: 26px;
     padding-right: 26px;
     margin-bottom: 20px;
@@ -1441,6 +1445,7 @@
         justify-content: space-around;
   
         .card {
+          width: 15rem;
           margin-bottom: 15px;
           margin-top: 20px;
           background:rgba( 255, 255, 255, 0.18 );

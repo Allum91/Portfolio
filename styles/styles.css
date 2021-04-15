@@ -197,13 +197,13 @@
     color: #F3F8FA;
   }
   body #section-3 .projects .projects-title .skills {
-    margin-top: 100px;
+    margin-top: 50px;
   }
   body #section-3 .projects .projects-title .skills .fab {
     width: 65px;
     height: 65px;
-    font-size: 65px;
-    grid-gap: 10px;
+    font-size: 35px;
+    grid-gap: 5px;
   }
   body #section-3 .projects .project-links {
     background: #F3F8FA;
@@ -504,13 +504,13 @@
     justify-content: center;
   }
   body #section-1 .homepage .box-color-1 {
-    width: 48vw;
+    width: 46vw;
     height: 98vh;
     background: #8CBFD7;
     margin-top: 15px;
   }
   body #section-1 .homepage .box-color-2 {
-    width: 48vw;
+    width: 46vw;
     height: 98vh;
     background: #F3F8FA;
     margin-top: 15px;
@@ -519,7 +519,7 @@
     font-size: 200px;
     position: absolute;
     top: 15%;
-    left: 38%;
+    left: 28%;
     font-weight: 800;
     color: #363636;
     line-height: 200px;
@@ -529,19 +529,19 @@
   }
   body #section-1 h2 {
     position: absolute;
-    bottom: 13%;
-    left: 42%;
+    bottom: 18%;
+    left: 37%;
     font-style: italic;
     font-weight: 300;
   }
   body #section-1 h3 {
     position: absolute;
-    bottom: 8%;
-    left: 42%;
+    bottom: 13%;
+    left: 37%;
     font-size: 16px;
   }
   body .language {
-    position: fixed;
+    position: absolute;
     left: 5px;
     top: 25px;
   }
@@ -566,7 +566,7 @@
     opacity: 0.3;
   }
   body .social-icons li img {
-    width: 25px;
+    width: 23px;
     height: 25px;
     margin-top: 20px;
   }
@@ -576,8 +576,8 @@
   }
   body .parallax {
     background-image: url("../images/stock_images/wireframing.jpeg");
-    min-height: 80vh;
-    min-width: 98vw;
+    min-height: 60vh;
+    max-width: 96vw;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -586,6 +586,7 @@
   body .parallaxTwo {
     background-image: url("../images/stock_images/coding.png");
     min-height: 80vh;
+    max-width: 96vw;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -597,13 +598,14 @@
     padding-left: 25px;
     padding-right: 27px;
     color: #363636;
+    height: 25px;
   }
   body .topbar h4 {
-    font-size: 24px;
+    font-size: 16px;
   }
   body .topbar ul li {
     display: inline;
-    font-size: 24px;
+    font-size: 16px;
   }
   body .topbar ul li a {
     color: #363636;
@@ -632,17 +634,17 @@
   }
   body #section-2 .about-heading {
     background: #F3F8FA;
-    padding-left: 20px;
+    padding-left: 15px;
     width: 48vw;
     text-align: left;
   }
   body #section-2 .about-heading h1 {
     padding-top: 50px;
-    padding-left: 20px;
-    font-size: 160px;
+    max-width: 96vw;
+    font-size: 140px;
     font-weight: bold;
     line-height: 110px;
-    margin-left: 120px;
+    margin-left: 60px;
     color: #363636;
   }
   body #section-2 .about-heading h1 span {
@@ -653,7 +655,7 @@
     height: 300px;
     padding: 20px;
     border-radius: 50%;
-    margin-left: 150px;
+    margin-left: 20px;
     margin-top: 80px;
   }
   body #section-2 .article {
@@ -661,7 +663,7 @@
     padding: 30px;
     width: 48vw;
     text-align: center;
-    font-size: 24px;
+    font-size: 20px;
     color: #363636;
     overflow: scroll;
   }
@@ -692,9 +694,9 @@
     padding-top: 50px;
   }
   body #section-3 .projects .projects-title h1 {
-    font-size: 150px;
+    font-size: 120px;
     font-weight: bold;
-    line-height: 140px;
+    line-height: 120px;
     color: #363636;
   }
   body #section-3 .projects .projects-title h1 span {
@@ -704,7 +706,7 @@
     margin-top: 100px;
   }
   body #section-3 .projects .projects-title .skills .fab {
-    width: 75px;
+    width: 70px;
     height: 75px;
     font-size: 75px;
     grid-gap: 10px;
@@ -766,13 +768,13 @@
     margin-top: 15px;
   }
   body #section-1 h1 {
-    font-size: 200px;
+    font-size: 160px;
     position: absolute;
-    top: 15%;
+    top: 10%;
     left: 38%;
     font-weight: 800;
     color: #363636;
-    line-height: 200px;
+    line-height: 160px;
   }
   body #section-1 h1 span {
     color: #8CBFD7;
@@ -792,11 +794,11 @@
   }
   body .language {
     position: fixed;
-    left: 5px;
+    left: 0;
     top: 25px;
   }
   body .language p {
-    font-size: large;
+    font-size: medium;
     font-weight: bold;
     transform: rotate(-90deg);
   }
@@ -809,15 +811,15 @@
   body .social-icons {
     position: fixed;
     right: 2px;
-    top: 300px;
+    top: 200px;
   }
   body .social-icons li {
     list-style-type: none;
     opacity: 0.3;
   }
   body .social-icons li img {
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     margin-top: 20px;
   }
   body li:hover {
@@ -847,13 +849,14 @@
     padding-left: 25px;
     padding-right: 27px;
     color: #363636;
+    height: 30px;
   }
   body .topbar h4 {
-    font-size: 24px;
+    font-size: 16px;
   }
   body .topbar ul li {
     display: inline;
-    font-size: 24px;
+    font-size: 16px;
   }
   body .topbar ul li a {
     color: #363636;
@@ -887,9 +890,8 @@
     text-align: left;
   }
   body #section-2 .about-heading h1 {
-    padding-top: 50px;
     padding-left: 20px;
-    font-size: 160px;
+    font-size: 140px;
     font-weight: bold;
     line-height: 110px;
     margin-left: 120px;
@@ -899,12 +901,12 @@
     color: #8CBFD7;
   }
   body #section-2 .about-heading img {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     padding: 20px;
     border-radius: 50%;
-    margin-left: 150px;
-    margin-top: 80px;
+    margin-left: 100px;
+    margin-top: 20px;
   }
   body #section-2 .article {
     background: #8CBFD7;
@@ -924,7 +926,7 @@
   }
   body #section-3 {
     width: 100vw;
-    height: 60vh;
+    height: 100vh;
     padding-left: 26px;
     padding-right: 26px;
     margin-bottom: 20px;
@@ -932,26 +934,26 @@
   body #section-3 .projects {
     display: flex;
     justify-content: center;
-    height: 80vh;
+    height: 100vh;
   }
   body #section-3 .projects .projects-title {
     background: #8CBFD7;
     width: 48vw;
     height: 100vh;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 30px;
   }
   body #section-3 .projects .projects-title h1 {
-    font-size: 150px;
+    font-size: 120px;
     font-weight: bold;
-    line-height: 140px;
+    line-height: 100px;
     color: #363636;
   }
   body #section-3 .projects .projects-title h1 span {
     color: #F3F8FA;
   }
   body #section-3 .projects .projects-title .skills {
-    margin-top: 100px;
+    margin-top: 60px;
   }
   body #section-3 .projects .projects-title .skills .fab {
     width: 75px;
@@ -968,16 +970,17 @@
     justify-content: space-around;
   }
   body #section-3 .projects .project-links .card {
+    width: 15rem;
     margin-bottom: 15px;
-    margin-top: 20px;
+    margin-top: 10px;
     background: rgba(255, 255, 255, 0.18);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     backdrop-filter: blur(3px);
     -webkit-backdrop-filter: blur(3px);
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.18);
-    font-size: 14px;
-    height: 200px;
+    font-size: 12px;
+    height: 150px;
     color: #363636;
   }
   body #section-3 .projects .project-links .btn {
@@ -1042,7 +1045,7 @@
   }
   body .language {
     position: fixed;
-    left: 5px;
+    left: 4px;
     top: 25px;
   }
   body .language p {
@@ -1066,8 +1069,8 @@
     opacity: 0.3;
   }
   body .social-icons li img {
-    width: 25px;
-    height: 25px;
+    width: 23px;
+    height: 23px;
     margin-top: 20px;
   }
   body li:hover {
@@ -1097,6 +1100,7 @@
     padding-left: 25px;
     padding-right: 27px;
     color: #363636;
+    height: 35px;
   }
   body .topbar h4 {
     font-size: 24px;
@@ -1174,7 +1178,7 @@
   }
   body #section-3 {
     width: 100vw;
-    height: 60vh;
+    height: 100vh;
     padding-left: 26px;
     padding-right: 26px;
     margin-bottom: 20px;
@@ -1218,6 +1222,7 @@
     justify-content: space-around;
   }
   body #section-3 .projects .project-links .card {
+    width: 15rem;
     margin-bottom: 15px;
     margin-top: 20px;
     background: rgba(255, 255, 255, 0.18);
