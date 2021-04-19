@@ -630,7 +630,7 @@
         }
       }
       h1 {
-        font-size: 200px;
+        font-size: 180px;
         position: absolute;
         top: 15%;
         left: 28%;
@@ -851,8 +851,8 @@
         // justify-content: space-around;
   
         .card {
-          margin-bottom: 15px;
-          margin-top: 20px;
+          margin-bottom: 10px;
+          margin-top: 10px;
           background:rgba( 255, 255, 255, 0.18 );
           box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
           backdrop-filter: blur( 3.0px );
@@ -860,7 +860,7 @@
           border-radius: 10px;
           border: 1px solid rgba( 255, 255, 255, 0.18 );
           font-size: 10px;
-          height: 120px;
+          height: 100px;
           color: $primary-font-color;
           overflow:scroll;
           text-align: center;
@@ -1187,7 +1187,7 @@
           border-radius: 10px;
           border: 1px solid rgba( 255, 255, 255, 0.18 );
           font-size: 12px;
-          height: 200px;
+          height: 180px;
           color: $primary-font-color;
           text-align: center;
         }
@@ -1407,13 +1407,14 @@
       background: $secondary-color;
       padding-left: 20px;
       width: 48vw;
+      height: 100vh;
       text-align:left;
       h1 {
         padding-top: 50px;
         padding-left: 20px;
-        font-size: 200px;
+        font-size: 180px;
         font-weight: bold;
-        line-height: 160px;
+        line-height: 120px;
         margin-left: 120px;
         color: $primary-font-color;
         span { 
@@ -1426,7 +1427,7 @@
         padding: 20px;
         border-radius: 50%;
         margin-left: 150px;
-        margin-top: 80px;
+        margin-top: 20px;
       }
     }
     .article {
@@ -1434,12 +1435,12 @@
       padding: 40px;
       width: 48vw;
       text-align: center;
-      font-size: 26px;
+      font-size: 24px;
       color: $primary-font-color;
       overflow: scroll;
       
       p {
-        margin-top: 50px;
+        margin-top: 20px;
       }
     }
   }
@@ -1494,7 +1495,7 @@
         .card {
           width: 20rem;
           margin-bottom: 15px;
-          margin-top: 50px;
+          margin-top: 30px;
           background:rgba( 255, 255, 255, 0.18 );
           box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
           backdrop-filter: blur( 3.0px );

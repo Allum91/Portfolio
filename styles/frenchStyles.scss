@@ -1,5 +1,6 @@
 @import './variables.scss';
 
+
 @media screen and (max-width: 399px) {
   body {
     background: $background-color;
@@ -14,13 +15,13 @@
         justify-content: center;
   
         .box-color-1 {
-          width: 47vw;
+          width: 46vw;
           height: 80vh;
           background: $primary-color;
           margin-top: 15px;
         }
         .box-color-2 {
-          width: 47vw;
+          width: 46vw;
           height: 80vh;
           background: $secondary-color;
           margin-top: 15px;
@@ -95,24 +96,29 @@
   }
   .parallax {
     background-image: url('../images/stock_images/wireframing.jpeg');
-    min-height: 20vh;
-    min-width: 98vw;
-    background-attachment: fixed;
+    min-height: 25vh;
+    background-attachment: inherit;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 96vw;
+    background-size: 92vw;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
   }
   .parallaxTwo {
     background-image: url('../images/stock_images/coding.png');
-    min-height: 20vh;
-    background-attachment: fixed;
+    min-height: 25vh;
+    background-attachment:inherit;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 96vw;
+    background-size: 90vw;
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
   
   .topbar {
     display: none;
+   
     
     h4 {
       font-size: $font-m;
@@ -144,7 +150,7 @@
     height: 80vh;
     padding-left: 18px;
     padding-right: 18px;
-    margin-top: 10px;
+
   
     .about-title{
       display:flex;
@@ -181,10 +187,10 @@
     }
     .article {
       background: $primary-color;
-      padding: 30px;
+      padding: 15px;
       width: 50vw;
       text-align: center;
-      font-size: 15px;
+      font-size: 11px;
       color: $primary-font-color;
       overflow: scroll;
       margin-top: 15px;
@@ -233,12 +239,12 @@
         width: 46vw;
         height: 80vh;
         padding: 10px;
-        display: flex;
-        justify-content: space-around;
+        padding-top: 20px;
+       // display: flex;
+       // justify-content: space-around;
   
         .card {
-          width: 5rem;
-          margin-top: 30px;
+          width: 10rem;
           margin-bottom: 10px;
           background:rgba( 255, 255, 255, 0.18 );
           box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
@@ -247,12 +253,17 @@
           border-radius: 10px;
           border: 1px solid rgba( 255, 255, 255, 0.18 );
           font-size: 8px;
-          height: 150px;
+          height: 90px;
           color: $primary-font-color;
           overflow: scroll;
+          text-align: center;
 
           .card-title{
-            font-size: 8px;
+            font-size: 12px;
+          }
+
+          .card-text {
+            display: none;
           }
         }
         
@@ -264,6 +275,7 @@
           border: 1px solid $primary-font-color;
           width: 50px;
           height: 20px;
+          background-color: $primary-color;
         }
         .btn:hover {
           transform: scale(1.1);
@@ -371,20 +383,24 @@
   }
   .parallax {
     background-image: url('../images/stock_images/wireframing.jpeg');
-    min-height: 20vh;
-    min-width: 98vw;
-    background-attachment: fixed;
+    min-height: 35vh;
+    background-attachment: inherit;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 96vw;
+    background-size: 92vw;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
   }
   .parallaxTwo {
     background-image: url('../images/stock_images/coding.png');
-    min-height: 20vh;
-    background-attachment: fixed;
+    min-height: 25vh;
+    background-attachment:inherit;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 96vw;
+    background-size: 92vw;
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
   
   .topbar {
@@ -420,7 +436,6 @@
     height: 100vh;
     padding-left: 18px;
     padding-right: 18px;
-    margin-top: 10px;
   
     .about-title{
       display:flex;
@@ -461,7 +476,7 @@
       padding: 30px;
       width: 50vw;
       text-align: center;
-      font-size: 17px;
+      font-size: 15px;
       color: $primary-font-color;
       overflow: scroll;
       margin-top: 15px;
@@ -477,17 +492,18 @@
     .projects {
       display: flex;
       justify-content: center;
-      height: 80vh;
+      height: 60vh;
   
       .projects-title {
         background: $primary-color;
         width: 46vw;
-        height: 100vh;
+        height: 75vh;
         text-align: center;
         padding-top: 50px;
         
         h1 {
-          font-size: 100px;
+          font-size: 90px;
+          padding-left: 5px;
           font-weight: bold;
           line-height: 120px;
           color: $primary-font-color;
@@ -500,7 +516,7 @@
           .fab {
             width: 65px;
             height: 65px;
-            font-size: 65px;
+            font-size: 60px;
             grid-gap: 10px;
           }
         }
@@ -508,26 +524,33 @@
       .project-links {
         background: $secondary-color;
         width: 46vw;
-        height: 100vh;
+        height: 75vh;
         padding: 10px;
-        display: flex;
-        justify-content: space-around;
+        
   
         .card {
-          width: 8rem;
-          margin-top: 30px;
+          width: 40vw;
+          margin-bottom: 10px;
           background:rgba( 255, 255, 255, 0.18 );
           box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
           backdrop-filter: blur( 3.0px );
           -webkit-backdrop-filter: blur( 3.0px );
           border-radius: 10px;
           border: 1px solid rgba( 255, 255, 255, 0.18 );
-          font-size: 10px;
-          height: 200px;
+          font-size: 8px;
+          height: 90px;
           color: $primary-font-color;
+          overflow: scroll;
+          text-align: center;
+          margin-left: 10px;
+          margin-top: 10px;
 
           .card-title{
             font-size: 12px;
+          }
+
+          .card-text {
+            display: none;
           }
         }
         
@@ -539,6 +562,7 @@
           border: 1px solid $primary-font-color;
           width: 100px;
           height: 30px;
+          background-color: $primary-color;
         }
         .btn:hover {
           transform: scale(1.1);
@@ -673,7 +697,7 @@
   }
   .parallax {
     background-image: url('../images/stock_images/wireframing.jpeg');
-    min-height: 60vh;
+    min-height: 40vh;
     max-width: 96vw;
     background-attachment: fixed;
     background-position: center;
@@ -682,7 +706,7 @@
   }
   .parallaxTwo {
     background-image: url('../images/stock_images/coding.png');
-    min-height: 80vh;
+    min-height: 40vh;
     max-width: 96vw;
     background-attachment: fixed;
     background-position: center;
@@ -822,9 +846,9 @@
         background: $secondary-color;
         width: 48vw;
         height: 100vh;
-        padding: 10px;
-        display: flex;
-        justify-content: space-around;
+        padding: 5px;
+        // display: flex;
+        // justify-content: space-around;
   
         .card {
           margin-bottom: 15px;
@@ -835,9 +859,15 @@
           -webkit-backdrop-filter: blur( 3.0px );
           border-radius: 10px;
           border: 1px solid rgba( 255, 255, 255, 0.18 );
-          font-size: 14px;
-          height: 200px;
+          font-size: 10px;
+          height: 120px;
           color: $primary-font-color;
+          overflow:scroll;
+          text-align: center;
+
+          h5 {
+            font-size: 15px;
+          }
         }
         
         .btn {
@@ -845,6 +875,12 @@
           color: $primary-font-color;
           font-weight: bold;
           border: 1px solid $primary-font-color;
+          height: 25px;
+          font-size: small;
+          text-align: center;
+          padding: 5px;
+          width: 70px;
+          background-color: $primary-color;
         }
         .btn:hover {
           transform: scale(1.1);
@@ -911,28 +947,36 @@
         }
       }
       h1 {
-        font-size: 160px;
+        font-size: 180px;
         position: absolute;
-        top: 10%;
-        left: 32%;
+        top: 20%;
+        left: 34%;
         font-weight: 800;
         color: $primary-font-color;
         line-height: 160px;;
         span {
           color: $primary-color;
         }
+        // animation: animated-text 2s steps(30,end) 1s 1 normal both;
+        // @keyframes animated-text{
+        //   from{width: 0;}
+        //   to{width: 1000px;}
+        // }
       }
+
+
+
       h2 {
         position: absolute;
-        bottom: 13%;
-        left: 42%;
+        bottom: 25%;
+        left: 40%;
         font-style: italic;
         font-weight: 300;
       }
       h3 {
         position: absolute;
-        bottom: 8%;
-        left: 42%;
+        bottom: 19%;
+        left: 40%;
         font-size: $font-s;
       }
     }
@@ -987,7 +1031,7 @@
   }
   .parallaxTwo {
     background-image: url('../images/stock_images/coding.png');
-    min-height: 80vh;
+    min-height: 50vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -1042,14 +1086,15 @@
   
     .about-heading {
       background: $secondary-color;
-      padding-left: 20px;
+      padding-left: 10px;
       width: 48vw;
       text-align:left;
+
       h1 {
-        padding-left: 10px;
-        font-size: 80px;
+        margin-top: 80px;
+        font-size: 160px;
         font-weight: bold;
-        line-height: 100px;
+        line-height: 110px;
         margin-left: 80px;
         color: $primary-font-color;
         span { 
@@ -1061,8 +1106,9 @@
         height: 250px;
         padding: 20px;
         border-radius: 50%;
-        margin-left: 100px;
-        margin-top: 10px;
+        margin-left: 80px;
+        margin-top: 60px;
+        margin-bottom: 30px;
       }
     }
     .article {
@@ -1070,7 +1116,7 @@
       padding: 30px;
       width: 48vw;
       text-align: center;
-      font-size: 24px;
+      font-size: 22px;
       color: $primary-font-color;
       overflow: scroll;
     }
@@ -1103,6 +1149,7 @@
         padding-top: 30px;
         
         h1 {
+          margin-top: 80px;
           font-size: 120px;
           font-weight: bold;
           line-height: 100px;
@@ -1129,11 +1176,10 @@
         display: flex;
         justify-content: space-around;
   
-        
         .card {
-          width: 15rem;
+          width: 11rem;
           margin-bottom: 15px;
-          margin-top: 10px;
+          margin-top: 40px;
           background:rgba( 255, 255, 255, 0.18 );
           box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
           backdrop-filter: blur( 3.0px );
@@ -1141,8 +1187,9 @@
           border-radius: 10px;
           border: 1px solid rgba( 255, 255, 255, 0.18 );
           font-size: 12px;
-          height: 150px;
+          height: 200px;
           color: $primary-font-color;
+          text-align: center;
         }
         
         .btn {
@@ -1150,6 +1197,7 @@
           color: $primary-font-color;
           font-weight: bold;
           border: 1px solid $primary-font-color;
+          background-color: $primary-color;
         }
         .btn:hover {
           transform: scale(1.1);
@@ -1198,7 +1246,7 @@
 
 //---------------------------------------------------------------------------------------------------------
 //extra large
-@media screen and (min-width: 1200px) and (max-width: 1600px) {
+@media screen and (min-width: 1200px) and (max-width: 2600px) {
   body {
     background: $background-color;
     font-family: $primary-font;
@@ -1229,7 +1277,7 @@
         font-size: 200px;
         position: absolute;
         top: 15%;
-        left: 30%;
+        left: 38%;
         font-weight: 800;
         color: $primary-font-color;
         line-height: 200px;;
@@ -1361,43 +1409,41 @@
       width: 48vw;
       text-align:left;
       h1 {
-        padding-top: 20px;
-        padding-left: 10px;
-        font-size: 130px;
+        padding-top: 50px;
+        padding-left: 20px;
+        font-size: 200px;
         font-weight: bold;
-        line-height: 130px;
-        margin-left: 80px;
+        line-height: 160px;
+        margin-left: 120px;
         color: $primary-font-color;
         span { 
           color: $primary-color;
         }
       }
       img {
-        width: 300px;
-        height: 300px;
+        width: 350px;
+        height: 350px;
         padding: 20px;
         border-radius: 50%;
         margin-left: 150px;
-        margin-top: 10px;
+        margin-top: 80px;
       }
     }
     .article {
       background: $primary-color;
-      padding: 30px;
+      padding: 40px;
       width: 48vw;
       text-align: center;
-      font-size: 24px;
+      font-size: 26px;
       color: $primary-font-color;
       overflow: scroll;
+      
+      p {
+        margin-top: 50px;
+      }
     }
   }
-  .coding-image img {
-    width: 100vw;
-    height: 80vh;
-    padding-left: 28px;
-    padding-right: 28px;
-    margin-top: 20px;
-  }
+  
   
   #section-3 {
     width: 100vw;
@@ -1446,9 +1492,9 @@
         justify-content: space-around;
   
         .card {
-          width: 15rem;
+          width: 20rem;
           margin-bottom: 15px;
-          margin-top: 20px;
+          margin-top: 50px;
           background:rgba( 255, 255, 255, 0.18 );
           box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
           backdrop-filter: blur( 3.0px );
@@ -1458,6 +1504,7 @@
           font-size: 14px;
           height: 200px;
           color: $primary-font-color;
+          text-align: center;
         }
         
         .btn {
@@ -1465,6 +1512,7 @@
           color: $primary-font-color;
           font-weight: bold;
           border: 1px solid $primary-font-color;
+          background-color: $primary-color;
         }
         .btn:hover {
           transform: scale(1.1);
