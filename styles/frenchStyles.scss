@@ -1277,7 +1277,7 @@
         font-size: 200px;
         position: absolute;
         top: 15%;
-        left: 38%;
+        left: 30%;
         font-weight: 800;
         color: $primary-font-color;
         line-height: 200px;;
@@ -1414,7 +1414,7 @@
         font-size: 80px;
         font-weight: bold;
         line-height: 80px;
-        margin-left: 120px;
+        margin-left: 50px;
         color: $primary-font-color;
         span { 
           color: $primary-color;
@@ -1425,7 +1425,7 @@
         height: 350px;
         padding: 20px;
         border-radius: 50%;
-        margin-left: 150px;
+        margin-left: 120px;
         margin-top: 40px;
       }
     }
@@ -1434,7 +1434,7 @@
       padding: 40px;
       width: 48vw;
       text-align: center;
-      font-size: 26px;
+      font-size: 20px;
       color: $primary-font-color;
       overflow: scroll;
       
@@ -1492,9 +1492,9 @@
         justify-content: space-around;
   
         .card {
-          width: 20rem;
+          width: 18rem;
           margin-bottom: 15px;
-          margin-top: 50px;
+          margin-top: 30px;
           background:rgba( 255, 255, 255, 0.18 );
           box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
           backdrop-filter: blur( 3.0px );
