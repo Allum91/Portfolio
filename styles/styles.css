@@ -26,7 +26,7 @@
     font-size: 130px;
     position: absolute;
     top: 15%;
-    left: 20%;
+    left: 10%;
     font-weight: 800;
     color: #363636;
     line-height: 100px;
@@ -155,18 +155,18 @@
     font-size: 80px;
     font-weight: bold;
     line-height: 90px;
-    margin-left: 20px;
+    margin-left: 5px;
     color: #363636;
   }
   body #section-2 .about-heading h1 span {
     color: #8CBFD7;
   }
   body #section-2 .about-heading img {
-    width: 180px;
-    height: 180px;
-    padding: 20px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     margin-top: 10px;
+    padding: 5px;
   }
   body #section-2 .article {
     background: #8CBFD7;
@@ -177,6 +177,9 @@
     color: #363636;
     overflow: scroll;
     margin-top: 15px;
+  }
+  body #section-2 .article .mobileGone {
+    display: none;
   }
   body #section-3 {
     width: 100vw;
@@ -197,7 +200,7 @@
     padding-top: 50px;
   }
   body #section-3 .projects .projects-title h1 {
-    font-size: 60px;
+    font-size: 50px;
     font-weight: bold;
     line-height: 80px;
     color: #363636;
@@ -231,7 +234,7 @@
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.18);
     font-size: 8px;
-    height: 14vh;
+    height: 15vh;
     color: #363636;
     overflow: scroll;
     text-align: center;
