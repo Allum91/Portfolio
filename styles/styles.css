@@ -949,7 +949,6 @@
     text-align: center;
     font-size: 16px;
     color: #363636;
-    overflow: scroll;
   }
   body .coding-image img {
     width: 100vw;
@@ -1205,7 +1204,6 @@
     text-align: center;
     font-size: 24px;
     color: #363636;
-    overflow: scroll;
   }
   body #section-2 .article p {
     margin-top: 20px;
